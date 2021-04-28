@@ -1,0 +1,104 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background:hsl(185, 75%, 39%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+}
+
+.img1{
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+}
+
+.img2{
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+
+.profile-card{
+    width: 350px;
+    height: 349px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color:#fff;
+    overflow: hidden;
+
+}
+.img4{
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
+
+p{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+p span{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+
+hr{
+    margin-top:130px;
+}
+.stats p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top:80px;
+    width: 350px;
+    word-spacing: 70px;
+    text-align: center;
+}
+
+small{
+ position: absolute;
+ top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: hsl(0, 0%, 59%);
+font-family: 'Kumbh Sans', sans-serif;
+margin-top:5px;
+}
+.stats span{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top:45px;
+    width: 350px;
+    word-spacing: 78px;
+    text-align: center;
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
